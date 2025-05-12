@@ -1,6 +1,6 @@
 # expense_tracker
 
-A new Flutter project.
+A expense tracker app developed while following section 5&6 of the Udemy Flutter & Dart (The Complete Guide 2025 Edition) course.
 
 ## Getting Started
 
