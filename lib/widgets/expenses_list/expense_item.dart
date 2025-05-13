@@ -16,9 +16,12 @@ final Expense expense;
           vertical: 16,
           ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-           Text(expense.title),
-           const SizedBox (height: 4),
+           Text(
+            expense.title,
+            ),
+            const SizedBox (height: 4),
            Row(
             children: [
               Text('\$${expense.amount.toStringAsFixed(2)}'), // 12.3433 --> 12.34
